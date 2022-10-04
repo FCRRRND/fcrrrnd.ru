@@ -1,0 +1,4 @@
+---
+# defaults file for nginx-proxy-install
+domain_name: fcrrrnd.ru
+email: fcrrrnd.rostov@gmail.com

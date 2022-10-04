@@ -1,0 +1,5 @@
+---
+# defaults file for gitlab-ce-install
+gitlab_domain: "fcrrrnd.ru"
+gitlab_root_password: "Nokia2000"
+

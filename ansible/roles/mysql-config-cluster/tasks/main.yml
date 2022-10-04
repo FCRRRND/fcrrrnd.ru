@@ -1,0 +1,50 @@
+---
+# tasks file for mysql-config-cluster
+- name: Copy Master template cnf
+  become: true
+  ansible.builtin.template:
+    src: "templates/{{ inventory_hostname }}.cnf.j2"
+    dest: /etc/my.cnf
+    mode: 0644
+    owner: mysql
+    group: mysql
+  notify: Restart MySQL
+- name: Flush handlers
+  meta: flush_handlers
+
+- name: Create replica user on master
+  become: yes
+  community.mysql.mysql_user:
+    name: "{{ replication_user }}"
+    password: "{{ replication_password }}"
+    host: "{{ hostvars['mysql-slave'].ansible_host }}"
+    priv: "*.*:REPLICATION SLAVE"
+    state: present
+  when: inventory_hostname == 'mysql-master'
+
+- name: Get primary binlog file name and binlog position
+  become: yes
+  community.mysql.mysql_replication:
+    mode: getprimary
+  register: primary_info
+  when: inventory_hostname == 'mysql-master'
+
+#Set up replication on slave
+- name: Set up replication on slave
+  block:
+  - name: Stop mysql replica thread
+    community.mysql.mysql_replication:
+      mode: stopreplica
+  - name: Change primary server and use binary log with position
+    community.mysql.mysql_replication:
+      mode: changeprimary
+      primary_user: "{{ replication_user }}"
+      primary_password: "{{ replication_password }}"
+      primary_host: "{{ hostvars['mysql-master'].ansible_host }}"
+      primary_log_file: "{{ hostvars['mysql-master'].primary_info.File }}"
+      primary_log_pos: "{{ hostvars['mysql-master'].primary_info.Position }}"
+  - name: Start mysql replica thread
+    community.mysql.mysql_replication:
+      mode: startreplica
+  when: inventory_hostname == 'mysql-slave'
+  become: true

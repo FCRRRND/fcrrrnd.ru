@@ -1,0 +1,7 @@
+---
+# defaults file for alertmanager-install
+receiver_email: "info@mail.ru"
+sender_email: "alertmanager@fcrrrnd.ru"
+smtp_host: "smtp.yandex.ru:465"
+email_user_name: "fcrrrnd"
+email_password: "Nokia2000"

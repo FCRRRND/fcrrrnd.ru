@@ -1,0 +1,39 @@
+---
+nginx:
+  hosts:
+    nginx-node:
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ProxyCommand="ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p -q ubuntu@84.201.174.143"'
+      ansible_user: ubuntu
+      ansible_host: 10.10.10.10
+mysql:
+  hosts:
+    mysql-master:
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ProxyCommand="ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p -q ubuntu@84.201.174.143"'
+      ansible_user: centos
+      ansible_host: 10.10.20.30
+    mysql-slave:
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ProxyCommand="ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p -q ubuntu@84.201.174.143"'
+      ansible_user: centos
+      ansible_host: 10.10.20.16
+wordpress:
+  hosts:
+    wordpress-node:
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ProxyCommand="ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p -q ubuntu@84.201.174.143"'
+      ansible_user: centos
+      ansible_host: 10.10.20.17
+gitlab:
+  hosts:
+    gitlab-server:
+      ansible_ssh_common_args: '-o ControlPersist=60s -o ServerAliveInterval=30 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ProxyCommand="ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p -q ubuntu@84.201.174.143"'
+      ansible_user: centos
+      ansible_host: 10.10.20.11
+    gitlab-runner:
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ProxyCommand="ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p -q ubuntu@84.201.174.143"'
+      ansible_user: centos
+      ansible_host: 10.10.20.8
+monitoring:
+  hosts:
+    monitoring-node:
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ProxyCommand="ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p -q ubuntu@84.201.174.143"'
+      ansible_user: centos
+      ansible_host: 10.10.20.37
