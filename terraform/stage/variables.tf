@@ -1,13 +1,9 @@
-# Заменить на ID своего облака
-# https://console.cloud.yandex.ru/cloud?section=overview
 variable "yandex_cloud_id" {
-  default = "b1ghgt8sag7lv475qqqm"
+  default = ""
 }
 
-# Заменить на Folder своего облака
-# https://console.cloud.yandex.ru/cloud?section=overview
 variable "yandex_folder_id" {
-  default = "b1g5q4428ibmbsnf8rh9"
+  default = ""
 }
 
 variable "yandex_external_ip" {
