@@ -62,6 +62,10 @@ Gitlab runner - [Gitlab runner](https://github.com/FCRRRND/fcrrrnd.ru/tree/main/
 
 Настройка pipeline
 
+![pipeline2](https://user-images.githubusercontent.com/93032289/196041043-20f71771-5505-4f46-bc0a-86a801ed03f6.png)
+![pipeline3](https://user-images.githubusercontent.com/93032289/196041045-789d1fa0-6daf-4aef-9ff4-501a94cad45f.png)
+![pipeline5](https://user-images.githubusercontent.com/93032289/196041047-31be09cb-2857-4003-8044-6201303a82d4.jpg)
 
+7. Prometheus ansible роль - [Prometheus](https://github.com/FCRRRND/fcrrrnd.ru/tree/main/ansible/roles/prometheus-install)
 
 
