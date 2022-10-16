@@ -43,7 +43,9 @@
 
 4. Создал ansible роль для установки кластера MySQL - mysql-master-node и mysql-slave-node.    
 (Cluster)[https://github.com/FCRRRND/fcrrrnd.ru/tree/main/ansible/roles/mysql-config-cluster]    
-(MySQL Install)[https://github.com/FCRRRND/fcrrrnd.ru/tree/main/ansible/roles/mysql-install]    
+(MySQL Install)[https://github.com/FCRRRND/fcrrrnd.ru/tree/main/ansible/roles/mysql-install]   
+
+Роль для создания базы данных wordpress - [Database wordpress](https://github.com/FCRRRND/fcrrrnd.ru/tree/main/ansible/roles/create-wordpress-db)
 
 ![sql](https://user-images.githubusercontent.com/93032289/196038978-8b3b63f4-7dfe-4d0c-99e0-28f87d884527.png)
 
