@@ -45,7 +45,9 @@
 (Cluster)[https://github.com/FCRRRND/fcrrrnd.ru/tree/main/ansible/roles/mysql-config-cluster]    
 (MySQL Install)[https://github.com/FCRRRND/fcrrrnd.ru/tree/main/ansible/roles/mysql-install]    
 
+![sql](https://user-images.githubusercontent.com/93032289/196038978-8b3b63f4-7dfe-4d0c-99e0-28f87d884527.png)
 
+5. Роль wordpress - 
 
 
 
