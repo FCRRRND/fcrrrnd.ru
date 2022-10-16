@@ -25,8 +25,17 @@
 ![bucket1](https://user-images.githubusercontent.com/93032289/196038031-7cd8b72f-0b3f-4c21-bae5-00937a84a32c.png)
 ![bucket](https://user-images.githubusercontent.com/93032289/196038033-c61f3ee8-c9fd-463b-9cea-430489a46ab6.png)
 
-3. Настройка workspaces, сделал альтернативный вариант, один stage - [stage](https://github.com/FCRRRND/fcrrrnd.ru/tree/main/terraform/stage)    
+Настройка workspaces, сделал альтернативный вариант, один stage - [stage](https://github.com/FCRRRND/fcrrrnd.ru/tree/main/terraform/stage)    
 По итогу terraform поднимает кластер и цепляет ansible роли, чтобы не приходилось каждую роль устанавливать отдельно
 
+![stage1](https://user-images.githubusercontent.com/93032289/196038333-db12c1cb-f358-46b6-bc41-14acf8cd0d56.png)
+![stage2](https://user-images.githubusercontent.com/93032289/196038334-7362ba94-82e6-451a-bbb7-609939028683.png)
+![stage3](https://user-images.githubusercontent.com/93032289/196038335-60f31383-ba19-459f-8a7f-5938030dcc46.png)
+
+По итогу получилась такая красота)
+
+![stage4](https://user-images.githubusercontent.com/93032289/196038336-94ad1b50-8e4a-4bc5-86b0-730f2863d1b2.png)
+
+3. Получил тестовые сертификаты
 
 
