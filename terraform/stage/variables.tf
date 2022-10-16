@@ -7,7 +7,7 @@ variable "yandex_folder_id" {
 }
 
 variable "yandex_external_ip" {
-  default = "84.201.174.143"
+  default = "51.250.94.253"
 }
 
 variable "yandex_ubuntu_user" {
