@@ -68,4 +68,12 @@ Gitlab runner - [Gitlab runner](https://github.com/FCRRRND/fcrrrnd.ru/tree/main/
 
 7. Prometheus ansible роль - [Prometheus](https://github.com/FCRRRND/fcrrrnd.ru/tree/main/ansible/roles/prometheus-install)
 
+![Prometheus](https://user-images.githubusercontent.com/93032289/196041224-7f36fd75-02d5-475b-a621-724dfccbe89f.png)
 
+Alertmanager ansible роль - [Alertmanager](https://github.com/FCRRRND/fcrrrnd.ru/tree/main/ansible/roles/alertmanager-install)
+
+![Alertmanager](https://user-images.githubusercontent.com/93032289/196041225-604b3964-d94f-4ace-b08f-2e3021f2bdac.png)
+
+Grafana ansible роль - [Grafana](https://github.com/FCRRRND/fcrrrnd.ru/tree/main/ansible/roles/grafana-install)
+
+![Grafana](https://user-images.githubusercontent.com/93032289/196041226-74697d93-63b7-46f5-b122-d95969bdb1d7.png)
