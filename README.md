@@ -17,3 +17,6 @@
 
 1. Регистрируем домен на Reg.ru и прописываем ip адрес полученный в YandexCloud
 
+![reg ru](https://user-images.githubusercontent.com/93032289/196037780-8218243f-41e2-4222-af4e-73064b10fb13.png)
+
+2. 
