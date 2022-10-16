@@ -36,6 +36,8 @@
 
 ![stage4](https://user-images.githubusercontent.com/93032289/196038336-94ad1b50-8e4a-4bc5-86b0-730f2863d1b2.png)
 
-3. Получил тестовые сертификаты
+3. Получил тестовые сертификаты через роль [certs](https://github.com/FCRRRND/fcrrrnd.ru/tree/main/ansible/roles/nginx-proxy-install)
+
+
 
 
