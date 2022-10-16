@@ -22,7 +22,8 @@
 2. Я использовал альтернативный вариант: S3 bucket в созданном YC аккаунте. Назвал его как и домен - fcrrrnd.ru    
 [s3](https://github.com/FCRRRND/fcrrrnd.ru/tree/main/terraform/s3) - описание создание бакета в terraform
 
+![bucket1](https://user-images.githubusercontent.com/93032289/196038031-7cd8b72f-0b3f-4c21-bae5-00937a84a32c.png)
+![bucket](https://user-images.githubusercontent.com/93032289/196038033-c61f3ee8-c9fd-463b-9cea-430489a46ab6.png)
 
-
-
+3. Настройка workspaces - 
 
