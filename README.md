@@ -42,7 +42,10 @@
 ![cert2](https://user-images.githubusercontent.com/93032289/196038669-d49d43a8-cf6d-4bfc-b453-a67c9c279f10.png)
 
 4. Создал ansible роль для установки кластера MySQL - mysql-master-node и mysql-slave-node.    
-(Cluster)[https://github.com/FCRRRND/fcrrrnd.ru/tree/main/ansible/roles/mysql-config-cluster]
+(Cluster)[https://github.com/FCRRRND/fcrrrnd.ru/tree/main/ansible/roles/mysql-config-cluster]    
+(MySQL Install)[https://github.com/FCRRRND/fcrrrnd.ru/tree/main/ansible/roles/mysql-install]    
+
+
 
 
 
