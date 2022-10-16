@@ -51,7 +51,10 @@
 
 5. Роль wordpress - (wordpress)[https://github.com/FCRRRND/fcrrrnd.ru/tree/main/ansible/roles/wordpress]
 
+![wordpress1](https://user-images.githubusercontent.com/93032289/196039163-2be99ad2-43dd-4579-b192-b6c9afbe9894.png)
+![wordpress2](https://user-images.githubusercontent.com/93032289/196039164-651576db-c0f2-4dcb-903c-05eccc303983.png)
 
+6. Роль для создания Gitlab CI - [Gitlab CI]()
 
 
 
