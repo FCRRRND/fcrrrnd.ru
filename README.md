@@ -57,7 +57,10 @@
 6. Роль для создания Gitlab CI - [Gitlab CI](https://github.com/FCRRRND/fcrrrnd.ru/tree/main/ansible/roles/gitlab-ce-install)    
 Gitlab runner - [Gitlab runner](https://github.com/FCRRRND/fcrrrnd.ru/tree/main/ansible/roles/gitlab-runner-install)
 
+![gitlab1](https://user-images.githubusercontent.com/93032289/196039469-868e2825-41ba-448e-a2ae-0cab061b6684.png)
+![gitlab2](https://user-images.githubusercontent.com/93032289/196039470-a7dc3f54-1d02-4b4e-8903-7eb041286daf.png)
 
+Настройка pipeline
 
 
 
