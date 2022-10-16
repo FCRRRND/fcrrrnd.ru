@@ -41,4 +41,4 @@
 ![cert1](https://user-images.githubusercontent.com/93032289/196038668-5f6e2fb3-3920-41b8-ad96-d6881859ae8f.png)
 ![cert2](https://user-images.githubusercontent.com/93032289/196038669-d49d43a8-cf6d-4bfc-b453-a67c9c279f10.png)
 
-
+4. Создал ansible роль для установки кластера MySQL - mysql-master-node и mysql-slave-node 
